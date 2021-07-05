@@ -1,6 +1,68 @@
 body {
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
 }
+#heading-color {
+  color: tomato;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(#dd9263, tomato);
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+
 h1 {
-  font-size: 50px;
+  font-size: 35px;
+}
+
+p {
+  color: gray;
+  font-weight: 200;
+}
+.top-header {
+  margin: 0;
+}
+
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.heading {
+  margin-top: 100px;
+}
+
+#top-header-img {
+  width: 20px;
+}
+
+.about {
+  height: 600px;
+  background-image: url(images/about-me-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.recipies-section {
+  text-align: center;
+  color: red;
+  margin: 20px 250px;
+}
+.footer-section-color {
+  color: red;
+}
+.footer-section {
+  text-align: center;
+  background-color: #0b0d17;
+  color: antiquewhite;
+  padding: 20px;
 }
