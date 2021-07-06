@@ -1,5 +1,5 @@
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 #heading-color {
@@ -17,12 +17,16 @@ body {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(73, 70, 70);
 }
 
 p {
   color: gray;
   font-weight: 200;
+  line-height: 25px;
 }
 .top-header {
   margin: 0;
@@ -39,10 +43,6 @@ p {
 
 .heading {
   margin-top: 100px;
-}
-
-#top-header-img {
-  width: 20px;
 }
 
 .about {
@@ -97,7 +97,9 @@ p {
 
 .food-menu-item h2 {
   margin-left: 3%;
-  padding: 2%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: left;
 }
 .food-menu-item p {
@@ -106,12 +108,6 @@ p {
   padding: 2%;
 }
 
-.footer-section {
-  text-align: center;
-  background-color: #0b0d17;
-  color: antiquewhite;
-  padding: 20px;
-}
 .about-person {
   margin-top: 125px;
 }
@@ -133,11 +129,22 @@ p {
 }
 .newsletter-section {
   text-align: center;
-  color: red;
-  padding: 20px;
-  background-color: #f1f1f1;
-  margin-bottom: 20px;
+  color: white;
+  background-image: url(images/menu-2--blur.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+  margin-top: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+.newsletter-section p {
+  color: white;
+}
+
 .newsletter-section input {
   font-size: 20px;
   border: 1px solid #ccc;
@@ -150,4 +157,11 @@ p {
 }
 input[type="submit"]:hover {
   opacity: 0.8;
+}
+
+.footer-section {
+  text-align: center;
+  background-color: #0b0d17;
+  color: antiquewhite;
+  padding: 20px;
 }
