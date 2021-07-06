@@ -55,11 +55,47 @@ p {
 .recipies-section {
   text-align: center;
   color: red;
-  margin: 20px 250px;
+  margin: 30px 250px;
 }
 .footer-section-color {
   color: red;
 }
+.food-menu-section img {
+  border-radius: 30px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+.food-menu-item {
+  width: 40%;
+  box-shadow: 0px 0px 15px 2px rgb(189, 185, 185);
+  border-radius: 30px;
+}
+
+.one {
+  margin-left: 5%;
+  margin-right: 3%;
+}
+.two {
+  margin-right: 3%;
+}
+.three {
+  margin-right: 5%;
+}
+
+.food-menu-item h2 {
+  margin-left: 3%;
+  padding: 2%;
+  text-align: left;
+}
+.food-menu-item p {
+  margin-left: 3%;
+  text-align: left;
+  padding: 2%;
+}
+
 .footer-section {
   text-align: center;
   background-color: #0b0d17;
